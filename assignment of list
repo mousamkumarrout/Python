@@ -1,0 +1,13 @@
+m=['Zoo','Rama','Geeta','Keeva','iit']
+l=[i[1] for i in m]
+print(l)
+
+
+# m=['Surendra','Priyanka','Rahul','Zini']
+# l=[[ch for ch in i]for i in m]
+# print(l)
+
+
+# m=[[chr(65+i) if i==j else " " for j in range(26)]for i in range(26)]
+# for i in m:
+#     print(i)

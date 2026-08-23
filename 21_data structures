@@ -1,0 +1,84 @@
+#dictionary ds
+#creation of dictoinary in different way
+# d={}
+# print(d)
+
+# d[23]='surendra'
+# d[24]='priyanka'
+# d[25]='rahul'
+# d[26]='zini'
+
+# print(d)
+
+
+# d = {23: 'surendra', 24: 'priyanka', 25: 'rahul', 26: 'zini'}
+# for i in d.items():
+#     print(i)
+
+# d = {23: 'surendra', 24: 'priyanka', 25: 'rahul', 26: 'zini'}
+# print(d.items())
+
+# d = {23: 'surendra', 24: 'priyanka', 25: 'rahul', 26: 'zini'}
+# for i, j in d.items():
+#     print(i, j)
+
+
+#concatination operation in tuple
+# t = (23, 33, 43, 53, 63)
+# l = (24, 34, 44, 54, 64)
+# s = (25, 35, 45, 55, 65)
+# p = t+l+s
+# print(p)
+
+#repetation operation 
+# t = (23, 33, 43, 53, 63)
+# l = t*3
+# print(l)
+
+
+#i in foor loop
+# t = (23, 33, 43, 53, 63)
+# for i in t:
+#     print(i)
+
+
+# t = (23, 33, 43, 53, 63)
+# i = 0
+# while i < len(t):
+#  print(t[i])
+#  i = i+1
+
+
+
+#create a dict and add item dynamically
+Student={}
+while True:
+    Name=(input('enter Student name:'))
+    Mark=int(input('enter Student mark:'))
+    Student[Name]=Mark
+ 
+    choice=input('do you want to add more record[yes/no]:').lower()
+
+    if choice=='no':
+        break
+ 
+print(''*15,'Student list',''*15)
+for i in Student:
+ print(i,'------>',Student[i])
+print(''*15,'--------',''*15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
