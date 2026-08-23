@@ -141,17 +141,20 @@ for i in l:
 # print("sum=",sum)
 
 #find sum of the all numbers between m to n
-m=int(input("enter m value:"))
-n=int(input("enter n value:"))
+# m=int(input("enter m value:"))
+# n=int(input("enter n value:"))
 
-sum=0
+# sum=0
 
-for i in range(m,n+1):
-    sum=sum+1
+# for i in range(m,n+1):
+#     sum=sum+1
 
-print("sum=",sum)
+# print("sum=",sum)
     
 
+
+for i in range(10):
+    print('welcome to git and github')
 
 
 
